@@ -1,0 +1,78 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h4 {
+    text-align: center;
+}
+
+button {
+    min-width: 120px;
+}
+
+#userView, 
+#adminView {
+    margin-top: 20px;
+}
+
+.poll-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.text-danger, 
+.text-success {
+    font-weight: bold;
+}
+
+.poll-option {
+    margin-bottom: 8px;
+}
+
+
+/* Pienillä näytöillä painikkeet allekkain */
+@media (max-width: 576px) {
+    #homeView .btn-lg {
+        width: 100%;
+    }
+    .poll-card {
+        padding: 12px;
+    }
+}
+
+
+.poll-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.poll-card h5 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Ylläpitäjä poistettavien listan rivit */
+.delete-row {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hover-efekti poistettavissa riveissä */
+.delete-row:hover {
+    background-color: #f8f9fa;
+}
+
